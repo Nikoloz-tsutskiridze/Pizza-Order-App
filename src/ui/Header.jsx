@@ -4,9 +4,9 @@ import Username from "../features/user/Username";
 
 function Header() {
   return (
-    <div className="border-b border-stone-300 bg-green-500 px-4 py-3 uppercase sm:px-6">
+    <div className="font-pizza flex items-center justify-between border-b border-stone-300 bg-red-400 px-4 py-3 uppercase sm:px-6">
       <Link to="/" className="tracking-widest">
-        Fast React Pizza
+        The Last Slice{" "}
       </Link>
       <SearchOrder />
       <Username />
